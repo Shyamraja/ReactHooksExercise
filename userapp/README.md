@@ -1,18 +1,56 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out this README Template. This template is for user guidance and detail about this project
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ABOUT THE PROJECT -->
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+This application is a part of assignment which can show Information of users in Card in Home page. From more info button detail info of users is shown in modal page.
+## Built With
+
+This application shows JSON data with react components . The major technologies that are used to develop projects are as follows
+
+- [React](https://reactjs.org/)
+- [Reactstrap](https://reactstrap.github.io/)
+- [mdbreact](https://www.npmjs.com/package/mdbreact)
+
+## Prerequisites
+
+In order to run this, you should have node in your device. You can first create react app. Then you can install reactstrap and axios while developing further. Open Api for fetching data is [website](https://jsonplaceholder.typicode.com/users).
+
+You can download and install requirements from the following links:
+
+- [Node](https://nodejs.org/en/)
+- [Reactstrap](https://reactstrap.github.io/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [MDBreact](https://www.npmjs.com/package/mdbreact)
+
+## Run application
+
+ 1.Clone with the repository from https://github.com/Shyamraja/ReactHooksExercise.git
+
+ 2.Run following command in project folder
+
+ ## npm install
+
+After that Install axios,reactstrap, mdbreact and bootstrap in the project directory then the project can be run by following command
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see if there are any errors present in the console.
+
+
+## App Demo Link
+
+You can also upload the application in netlify. I have uploaded and the live link is
+
+https://mystifying-tereshkova-7465c2.netlify.app/
+
 
 ### `npm test`
 
@@ -31,13 +69,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
@@ -61,10 +99,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
