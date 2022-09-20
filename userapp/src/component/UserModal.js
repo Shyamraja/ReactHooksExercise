@@ -15,6 +15,10 @@ const UserModal = ({
             <h2>Personal Information</h2>
             <p>name: {user.name}</p>
             <p>username: {user.username}</p>
+            <p>email: {user.email}</p>
+            <p>phone: {user.phone}</p>
+            <p>company: {user.company.name}</p>
+            <p>website: {user.website}</p>    
           </div>
 
           <div>
@@ -22,12 +26,14 @@ const UserModal = ({
             <ul>
             <li>Street Address: {user.address.street}</li>
             <li>Suite: {user.address.street}</li>
+            <li>city: {user.address.city}</li>
+            <li>zipcode: {user.address.zipcode}</li>
             </ul>
-          </div>  
+          </div>
+            
         </ModalBody>
-
         <ModalFooter>
-          <Button color="secondary">Cancel</Button>
+          <Button color="secondary" onClick={toggle}>Cancel</Button>
         </ModalFooter>
       </Modal>
     </div>
