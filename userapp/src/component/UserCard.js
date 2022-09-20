@@ -4,6 +4,7 @@ import {
   CardTitle, Button, CardSubtitle
 } from 'reactstrap';
 import UserModal from "./UserModal";
+import "./styles/card.css";
 
 
 const UserCard = ({user}) => {

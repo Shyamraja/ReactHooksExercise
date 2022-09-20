@@ -25,7 +25,7 @@ const UserModal = ({
             <h2>Address</h2>
             <ul>
             <li>Street Address: {user.address.street}</li>
-            <li>Suite: {user.address.street}</li>
+            <li>Suite: {user.address.suite}</li>
             <li>city: {user.address.city}</li>
             <li>zipcode: {user.address.zipcode}</li>
             </ul>
